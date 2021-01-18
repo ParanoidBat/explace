@@ -5,11 +5,11 @@ No support is added for python 2.x and running it with said version has unknown 
 
 To use the script, either to fetch data or to replace it. You need to place it in the root of your working directory.
 It will span into the tree of that directory. **You must be able to call python in that directory**
-To check if you can call python in your directory, go to your directory through cmd and type
+To check if you can call python in your directory, go to your directory through cmd and type \n
 `python --version`
 The python version installed on your system will showed, else an error will appear.
 
-To fetch the data; use
+To fetch the data; use \n
 `python explace.py -f .html h2`
 - .html is file extension, you can specify your own
 - h2 is the tag to look for. Notice the absence of opening and closing tags.
