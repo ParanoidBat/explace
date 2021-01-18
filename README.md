@@ -1,13 +1,13 @@
 # explace
 *explace* is a python script that works on files that support tags syntax (e.g HTML, XML, HTML.ERB etc)
-The script is written in **python 3.7** and tested on **Windows 10** only. The script works for UTF-8 encoded files.
+The script is written in **python 3.7** and tested on **Windows 10** only and works for UTF-8 encoded files.
 No support is added for python 2.x and running it with said version has unknown behaviours.
 
-To use the script, either to fetch data or to replace it. You need to place it in the root of your working directory.
-It will span into the tree of that directory. **You must be able to call python in that directory**
+To use the script, either to fetch data or to replace it, you need to place it in the root of your working directory,
+it will span into the tree of that directory. **You must be able to call python in that directory.**
 To check if you can call python in your directory, go to your directory through cmd and type  
 `python --version`  
-The python version installed on your system will showed, else an error will appear.
+The python version installed on your system will be showed, else an error will appear.
 
 To fetch the data; use  
 `python explace.py -f .html h2`  
