@@ -100,6 +100,8 @@ def fetch(p):
             file.write(str(text[1][i]) + '\n') # line number
             file.write(text[2][i] + '\n') # text
             file.write('\n')
+    
+    print("Data has been written to edit_data.txt")
 
 def replace(p):
     """
@@ -227,6 +229,8 @@ def replace(p):
                         
     except FileNotFoundError:
         print("edit_data.txt not found.\n")
+    
+    print("Files have been generated in \'generated\' folder")
 
 
 if __name__ == "__main__":
