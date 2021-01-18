@@ -12,7 +12,7 @@ The python version installed on your system will showed, else an error will appe
 To fetch the data; use
 `python explace.py -f .html h2`
 - .html is file extension, you can specify your own
-- h2 is the tag to look for. Notice the absence of opening and closing tags. **DO NOT** write <h2> instead
+- h2 is the tag to look for. Notice the absence of opening and closing tags.
 This will extract everything written inside h2 elements from all files in the directory tree and save them to a text file
 
 You may want to change the text in that file, but **DO NOT rename it or change other information in that file** if you intend to re-use for replacing
